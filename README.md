@@ -17,7 +17,6 @@ List of features:
 + Scheduling-components
 + @RestController
 + Integration with Logback
-+ REST client, based on Spring REST Template and Hystrix Commands
 
 * Common information:
 + Spring Boot version : 1.4.1
@@ -43,7 +42,6 @@ List of features:
 + Интеграция *@Scheduling*
 + Интеграция *@RestController*
 + Логгирование через Logback
-+ REST-клиент, использующий Hystrix и Spring REST Template
 
 Общая информация:
 + Используемая версия Spring Boot : 1.4.1
