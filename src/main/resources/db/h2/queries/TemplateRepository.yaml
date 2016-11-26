@@ -1,0 +1,13 @@
+selectById : SELECT * FROM TEMPLATE_TBL WHERE id = :id;
+
+count : SELECT COUNT(*) FROM TEMPLATE_TBL;
+
+selectAll : SELECT * FROM TEMPLATE_TBL;
+
+selectAllByIds : SELECT * FROM TEMPLATE_TBL WHERE id IN ({% for id in ids %} {% if (loop.first == false) %},{% endif %} {{id}} {% endfor %});
+
+deleteById : DELETE FROM TEMPLATE_TBL WHERE id = :id;
+
+deleteByIds : DELETE FROM TEMPLATE_TBL WHERE id IN ({% for id in ids %} {% if (loop.first == false) %},{% endif %} {{id}} {% endfor %});
+
+deleteAll : DELETE FROM TEMPLATE_TBL;

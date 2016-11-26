@@ -1,0 +1,3 @@
+delete: delete GreetingTemplate where id = :id
+
+deleteAll: delete GreetingTemplate

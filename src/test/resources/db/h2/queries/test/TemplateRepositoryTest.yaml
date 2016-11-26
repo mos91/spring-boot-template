@@ -1,0 +1,3 @@
+selectAll : SELECT * FROM TEMPLATE_TBL;
+
+insert : INSERT INTO TEMPLATE_TBL(id, content) VALUES(:id, :content);

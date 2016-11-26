@@ -1,0 +1,1 @@
+insert : INSERT INTO TEMPLATE_TBL (content) VALUES (:content) RETURNING id;
