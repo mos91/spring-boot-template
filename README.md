@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/mos91/spring-boot-template.svg?branch=master)](https://travis-ci.org/mos91/spring-boot-template)
+
 #Spring Boot template
 ## English
 
