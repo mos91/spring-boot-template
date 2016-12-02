@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<!DOCTYPE suppressions PUBLIC
+        "-//Puppy Crawl//DTD Suppression 1.0//EN"
+        "http://www.puppycrawl.com/dtds/suppressions_1_0.dtd">
+
+<suppressions>
+    <suppress checks="JavadocPackage" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="JavadocType" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="JavadocMethod" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="JavadocVariable" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="DesignForExtension" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="HiddenField" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="LineLength" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="NewlineAtEndOfFile" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="FinalParameters" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+    <suppress checks="MagicNumber" files="org[\\/]mos91[\\/]restfulexample[\\/][a-zA-Z0-9_\\/]*\.java"/>
+</suppressions>

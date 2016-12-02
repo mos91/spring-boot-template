@@ -16,10 +16,10 @@ public class CurrentTime {
 
     private static final Logger LOG = LoggerFactory.getLogger(CurrentTime.class);
 
-    private static final SimpleDateFormat dateFormat = new SimpleDateFormat("HH:mm:ss:z");
+    private static final SimpleDateFormat DATE_FORMAT = new SimpleDateFormat("HH:mm:ss:z");
 
     @Scheduled(fixedRate = 5000)
     public void reportCurrentTime() {
-        LOG.info("The time is now {}", dateFormat.format(new Date()));
+        LOG.info("The time is now {}", DATE_FORMAT.format(new Date()));
     }
 }

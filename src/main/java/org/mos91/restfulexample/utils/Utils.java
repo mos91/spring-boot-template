@@ -14,7 +14,9 @@ import java.util.Properties;
  */
 public final class Utils {
 
-    private Utils() {}
+    private Utils() {
+
+    }
 
     private static Flyway flyway(String propertiesPath) throws IOException {
         Flyway flyway = new Flyway();

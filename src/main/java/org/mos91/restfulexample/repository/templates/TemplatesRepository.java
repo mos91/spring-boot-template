@@ -14,9 +14,9 @@ public interface TemplatesRepository {
 
     <S extends GreetingTemplate> Collection<S> save(Collection<S> entities);
 
-    GreetingTemplate findOne(Long Long);
+    GreetingTemplate findOne(Long id);
 
-    boolean exists(Long Long);
+    boolean exists(Long id);
 
     List<GreetingTemplate> findAll();
 

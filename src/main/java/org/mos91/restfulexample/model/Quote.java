@@ -3,14 +3,20 @@ package org.mos91.restfulexample.model;
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import lombok.Data;
 
-import javax.persistence.*;
+import javax.persistence.Embedded;
+import javax.persistence.Entity;
+import javax.persistence.GeneratedValue;
+import javax.persistence.GenerationType;
+import javax.persistence.Id;
+import javax.persistence.SequenceGenerator;
+import javax.persistence.Table;
 
 /**
  * Created by Oleg.Meleshin on 10/18/2016.
  */
 @JsonIgnoreProperties
 @Data
-@SequenceGenerator(name="quote_id_gen", sequenceName = "quote_tbl_seq")
+@SequenceGenerator(name = "quote_id_gen", sequenceName = "quote_tbl_seq")
 @Entity
 @Table(name = "QUOTE_TBL", schema = "PUBLIC")
 public class Quote {

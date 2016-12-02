@@ -5,6 +5,10 @@ import org.springframework.transaction.support.TransactionTemplate;
 
 public final class Transactions {
 
+  private Transactions() {
+
+  }
+
   public static TransactionTemplateCallBuilder executedBy(TransactionTemplate transactionTemplate) {
     return new TransactionTemplateCallBuilder(transactionTemplate);
   }

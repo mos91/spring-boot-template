@@ -19,8 +19,6 @@ public enum RepositoryType {
 
     @Override
     public String toString() {
-        return "RepositoryType{" +
-                "name='" + name + '\'' +
-                '}';
+        return "RepositoryType{name='" + name + "'}";
     }
 }

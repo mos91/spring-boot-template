@@ -2,8 +2,6 @@ package org.mos91.restfulexample.model;
 
 import lombok.Data;
 
-import javax.persistence.Embeddable;
-
 /**
  * Created by Oleg.Meleshin on 10/18/2016.
  */

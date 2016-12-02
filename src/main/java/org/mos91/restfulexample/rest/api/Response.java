@@ -3,6 +3,7 @@ package org.mos91.restfulexample.rest.api;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 import lombok.Builder;
 import lombok.Data;
+import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 
 import java.util.Date;
@@ -36,7 +37,7 @@ public class Response {
         error.setStatus(status);
 
         Response response = builder.success(false).error(error).build();
-        return ResponseEntity.status(500).body(response);
+        return ResponseEntity.status(HttpStatus.INTERNAL_SERVER_ERROR.value()).body(response);
     }
 
 }
